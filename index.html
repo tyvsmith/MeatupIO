@@ -73,7 +73,7 @@
 
     /* Carousel base class */
     .carousel {
-      margin-bottom: 60px;
+      
     }
 
     .carousel .container {
@@ -147,6 +147,8 @@
     .featurette-divider {
       margin: 80px 0; /* Space out the Bootstrap <hr> more */
     }
+	
+	
     .featurette {
       padding-top: 60px; /* Vertically center images part 1: add padding above and below text. */
       overflow: hidden; /* Vertically center images part 2: clear their floats. */
@@ -177,7 +179,7 @@
     -------------------------------------------------- */
 
     @media (max-width: 979px) {
-
+	  
       .container.navbar-wrapper {
         margin-bottom: 0;
         width: auto;
@@ -213,6 +215,9 @@
 
 
     @media (max-width: 767px) {
+	 	.container {
+			width: 100%;
+		  }
 
       .navbar-inner {
         margin: -20px;
@@ -240,7 +245,7 @@
         margin-top: 100px;
       }
       .carousel-caption h1 {
-        font-size: 30px;
+        font-size: 22px;
       }
       .carousel-caption .lead,
       .carousel-caption .btn {
@@ -338,6 +343,10 @@
     <!-- Wrap the rest of the page in another container to center all the content. -->
 
     <div class="container marketing">
+	   <div class="sponsors" id="sponsors">
+			Sponsored by
+		<a href="http://www.simple.com"><img src="assets/img/simple.png"></a>
+	   </div>
 
       <div class="featurette" id="about">
         <!-- <img class="featurette-image pull-right" src="assets/img/examples/browser-icon-chrome.png"> -->
